@@ -13,6 +13,10 @@ def test_first_number_in_array_1
   assert_equal(1, results[0])
 end
 
+def test_second_number_in_array_2
+results=greene_county
+assert_equal(2, results[1])
+end
 
 end
 
