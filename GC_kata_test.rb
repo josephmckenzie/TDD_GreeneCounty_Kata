@@ -45,7 +45,7 @@ results=greene_county
 assert_equal("Greene County", results[-11])
 assert_equal("Greene County", results[14])
 end
-
+print greene_county
 end
 
 
