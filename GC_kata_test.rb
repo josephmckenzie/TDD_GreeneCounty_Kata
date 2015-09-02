@@ -22,9 +22,10 @@ def test_last_number_in_array_100
 results=greene_county
 assert_equal(100, results[-1])
 end
-  def test_third_element_in_array_is_greene
-	results=greene_county
-	assert_equal("greene", [3])
-	end
+   
+   def test_third_element_in_array_is_greene
+   results=greene_county
+   assert_equal("greene", results[2])
+   end
 end
 
