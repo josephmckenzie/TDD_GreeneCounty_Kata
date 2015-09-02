@@ -8,5 +8,11 @@ results= greene_county
 assert_equal(100,results.length)
 end
 
+def test_first_number_in_array_1
+  results=greene_county
+  assert_equal(1, results[0])
+end
+
+
 end
 
