@@ -39,6 +39,13 @@ results=greene_county
 assert_equal("county", results[4])
 assert_equal("county", results[-1])
 end
+
+def test_every_3rdand5th_is_greenecounty
+results=greene_county
+assert_equal("Greene County", results[-11])
+assert_equal("Greene County", results[14])
+end
+
 end
 
 
