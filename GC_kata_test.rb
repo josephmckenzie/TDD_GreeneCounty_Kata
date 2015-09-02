@@ -14,18 +14,24 @@ def test_first_number_in_array_1
 end
 
 def test_second_number_in_array_2
-results=greene_county
-assert_equal(2, results[1])
+  results=greene_county
+  assert_equal(2, results[1])
 end
 
 def test_last_number_in_array_100
-results=greene_county
-assert_equal(100, results[-1])
+  results=greene_county
+  assert_equal(100, results[-1])
 end
    
-   def test_third_element_in_array_is_greene
-   results=greene_county
-   assert_equal("greene", results[2])
-   end
+def test_third_element_in_array_is_greene
+  results=greene_county
+  assert_equal("greene", results[2])
+end
+
+def test_every_third_number_is_greene
+  results=greene_county
+  assert_equal("greene", results[2])
+  assert_equal("greene", results[-2])
+end
 end
 
