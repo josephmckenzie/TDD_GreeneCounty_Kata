@@ -18,7 +18,7 @@ results=greene_county
 assert_equal(2, results[1])
 end
 
-def last_number_in_array_100
+def test_last_number_in_array_100
 results=greene_county
 assert_equal(100, [-1])
 end
