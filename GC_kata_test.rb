@@ -45,7 +45,13 @@ results=greene_county
 assert_equal("Greene County", results[-11])
 assert_equal("Greene County", results[14])
 end
-print greene_county
+
+
+def test_index_pos
+puts "What index position in the array do you wish to see Pick from 0-99 "
+choice=gets.to_i
+puts "the spot you chose at #{choice} is #{greene_county.at(choice)}"
+end
 end
 
 
