@@ -33,5 +33,13 @@ def test_every_third_number_is_greene
   assert_equal("greene", results[2])
   assert_equal("greene", results[-2])
 end
+
+def test_every_5th_number_is_county
+results=greene_county
+assert_equal("county", results[4])
+assert_equal("county", results[-5])
 end
+end
+
+
 
