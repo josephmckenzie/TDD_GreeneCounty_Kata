@@ -50,10 +50,9 @@ def test_index_pos
 puts "What index position in the array do you wish to see Pick from 1-100 "
 choice=gets.to_i
 puts "the spot you chose at #{choice} is #{greene_county.at(choice-1)}"
-end
-
 print greene_county
 end
+end
 
 
-
+#We can either print the array before or after the choice for index pos is made..... 
