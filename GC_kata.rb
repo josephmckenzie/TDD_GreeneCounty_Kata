@@ -3,6 +3,8 @@ array=[*(1..100)]
 array.each_with_index do |value,index|
 if value%3==0
 array[index]="greene"
+elsif value%5==0
+array[index]="county"
 end
 end
 end
