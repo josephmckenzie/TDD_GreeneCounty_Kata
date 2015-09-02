@@ -1,3 +1,3 @@
 def greene_county
-arrayname=Array.new(100, "numbers")
+arrayname=[*(1..100)]
 end
